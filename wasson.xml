@@ -1,0 +1,2099 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2022-03-30 13:17:51">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+			<XMI.exporterID>1560</XMI.exporterID>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_047E66F6_5B61_4ad2_8671_452D6926D02C">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="Wasson" xmi.id="EAPK_047E66F6_5B61_4ad2_8671_452D6926D02C" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_6F0FE1B5_FE13_44f2_A3E4_D5E1EAF62DA6"/>
+						<UML:TaggedValue tag="created" value="2021-11-12 14:21:09"/>
+						<UML:TaggedValue tag="modified" value="2021-11-12 14:21:09"/>
+						<UML:TaggedValue tag="iscontrolled" value="0"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="0"/>
+						<UML:TaggedValue tag="usedtd" value="0"/>
+						<UML:TaggedValue tag="logxml" value="0"/>
+						<UML:TaggedValue tag="batchsave" value="0"/>
+						<UML:TaggedValue tag="batchload" value="0"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="Eric Burgers"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_047E66F6_5B61_4ad2_8671_452D6926D02C_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Hogere Orde Systemen" xmi.id="EAID_8A5A62C4_3A2C_45be_8229_7767DC612C2C" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_047E66F6_5B61_4ad2_8671_452D6926D02C"/>
+										<UML:TaggedValue tag="date_created" value="2021-11-12 14:27:47"/>
+										<UML:TaggedValue tag="date_modified" value="2021-11-12 14:27:47"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_8A5A62C4_3A2C_45be_8229_7767DC612C2C"/>
+										<UML:TaggedValue tag="package_name" value="Wasson"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Eric Burgers"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="13142"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Fysieke Omgeving" xmi.id="EAID_DD7B95BC_5515_4272_B4F4_BDEF41247288" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_047E66F6_5B61_4ad2_8671_452D6926D02C"/>
+										<UML:TaggedValue tag="date_created" value="2021-11-12 14:25:54"/>
+										<UML:TaggedValue tag="date_modified" value="2021-11-12 14:25:54"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_DD7B95BC_5515_4272_B4F4_BDEF41247288"/>
+										<UML:TaggedValue tag="package_name" value="Wasson"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Eric Burgers"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="13141"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+						<UML:Package name="Fysieke Omgeving" xmi.id="EAPK_DD7B95BC_5515_4272_B4F4_BDEF41247288" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_047E66F6_5B61_4ad2_8671_452D6926D02C"/>
+								<UML:TaggedValue tag="created" value="2021-11-12 14:25:54"/>
+								<UML:TaggedValue tag="modified" value="2021-11-12 14:25:54"/>
+								<UML:TaggedValue tag="iscontrolled" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="0"/>
+								<UML:TaggedValue tag="usedtd" value="0"/>
+								<UML:TaggedValue tag="logxml" value="0"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Eric Burgers"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Collaboration xmi.id="EAID_DD7B95BC_5515_4272_B4F4_BDEF41247288_Collaboration" name="Collaborations">
+									<UML:Namespace.ownedElement>
+										<UML:ClassifierRole name="Natuurlijke Omgevingselementen (factoren)" xmi.id="EAID_4BE71FDB_FB27_456a_B667_F6D0F1188153" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_DD7B95BC_5515_4272_B4F4_BDEF41247288"/>
+												<UML:TaggedValue tag="date_created" value="2021-11-12 14:22:00"/>
+												<UML:TaggedValue tag="date_modified" value="2021-11-12 14:26:01"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_4BE71FDB_FB27_456a_B667_F6D0F1188153"/>
+												<UML:TaggedValue tag="package_name" value="Fysieke Omgeving"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Eric Burgers"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="13134"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Mens-gemaakte Omgevingselementen (factoren)" xmi.id="EAID_65DC4145_880C_4ac8_B80A_8C5517763344" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_DD7B95BC_5515_4272_B4F4_BDEF41247288"/>
+												<UML:TaggedValue tag="date_created" value="2021-11-12 14:21:34"/>
+												<UML:TaggedValue tag="date_modified" value="2021-11-12 14:25:59"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_65DC4145_880C_4ac8_B80A_8C5517763344"/>
+												<UML:TaggedValue tag="package_name" value="Fysieke Omgeving"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Eric Burgers"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="13133"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Geinduceerde Omgevingselementen (factoren)" xmi.id="EAID_6CC88D41_7FCF_449c_B63A_1EEBAABB2DF9" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_DD7B95BC_5515_4272_B4F4_BDEF41247288"/>
+												<UML:TaggedValue tag="date_created" value="2021-11-12 14:22:21"/>
+												<UML:TaggedValue tag="date_modified" value="2021-11-12 14:25:58"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_6CC88D41_7FCF_449c_B63A_1EEBAABB2DF9"/>
+												<UML:TaggedValue tag="package_name" value="Fysieke Omgeving"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Eric Burgers"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="13135"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+									</UML:Namespace.ownedElement>
+									<UML:Collaboration.interaction/>
+								</UML:Collaboration>
+								<UML:Class name="Fysieke omgeving" xmi.id="EAID_69462735_C152_4782_B3DD_C7B23F15BED8" visibility="public" namespace="EAPK_DD7B95BC_5515_4272_B4F4_BDEF41247288" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="block"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_DD7B95BC_5515_4272_B4F4_BDEF41247288"/>
+										<UML:TaggedValue tag="date_created" value="2021-11-12 14:26:32"/>
+										<UML:TaggedValue tag="date_modified" value="2021-11-12 14:26:54"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Fysieke Omgeving"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Eric Burgers"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="product_name" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="block"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="111867"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B1053BC0-B783-431c-BD3A-4244E3E11336}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=block;FQName=SysML1.4::block;@ENDSTEREO;$DES;$CLT={69462735-C152-4782-B3DD-C7B23F15BED8}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={782F21BD-6F1D-434b-A63B-0E09508844E4}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=_defaultDiagramType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=SysML1.4::InternalBlock@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={69462735-C152-4782-B3DD-C7B23F15BED8}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Package name="Geinduceerde Omgevingselementen (factoren)" xmi.id="EAPK_6CC88D41_7FCF_449c_B63A_1EEBAABB2DF9" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="parent" value="EAPK_DD7B95BC_5515_4272_B4F4_BDEF41247288"/>
+										<UML:TaggedValue tag="created" value="2021-11-12 14:22:21"/>
+										<UML:TaggedValue tag="modified" value="2021-11-12 14:22:21"/>
+										<UML:TaggedValue tag="iscontrolled" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="0"/>
+										<UML:TaggedValue tag="usedtd" value="0"/>
+										<UML:TaggedValue tag="logxml" value="0"/>
+										<UML:TaggedValue tag="batchsave" value="0"/>
+										<UML:TaggedValue tag="batchload" value="0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="Eric Burgers"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement/>
+								</UML:Package>
+								<UML:Package name="Mens-gemaakte Omgevingselementen (factoren)" xmi.id="EAPK_65DC4145_880C_4ac8_B80A_8C5517763344" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="parent" value="EAPK_DD7B95BC_5515_4272_B4F4_BDEF41247288"/>
+										<UML:TaggedValue tag="created" value="2021-11-12 14:21:34"/>
+										<UML:TaggedValue tag="modified" value="2021-11-12 14:21:34"/>
+										<UML:TaggedValue tag="iscontrolled" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="0"/>
+										<UML:TaggedValue tag="usedtd" value="0"/>
+										<UML:TaggedValue tag="logxml" value="0"/>
+										<UML:TaggedValue tag="batchsave" value="0"/>
+										<UML:TaggedValue tag="batchload" value="0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="Eric Burgers"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement/>
+								</UML:Package>
+								<UML:Package name="Natuurlijke Omgevingselementen (factoren)" xmi.id="EAPK_4BE71FDB_FB27_456a_B667_F6D0F1188153" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="parent" value="EAPK_DD7B95BC_5515_4272_B4F4_BDEF41247288"/>
+										<UML:TaggedValue tag="created" value="2021-11-12 14:22:00"/>
+										<UML:TaggedValue tag="modified" value="2021-11-12 14:22:00"/>
+										<UML:TaggedValue tag="iscontrolled" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="0"/>
+										<UML:TaggedValue tag="usedtd" value="0"/>
+										<UML:TaggedValue tag="logxml" value="0"/>
+										<UML:TaggedValue tag="batchsave" value="0"/>
+										<UML:TaggedValue tag="batchload" value="0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="Eric Burgers"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement>
+										<UML:Collaboration xmi.id="EAID_4BE71FDB_FB27_456a_B667_F6D0F1188153_Collaboration" name="Collaborations">
+											<UML:Namespace.ownedElement>
+												<UML:ClassifierRole name="Klimaat" xmi.id="EAID_A5F6F7C1_5F37_4187_9CFA_8A662C1810D1" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Package"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_4BE71FDB_FB27_456a_B667_F6D0F1188153"/>
+														<UML:TaggedValue tag="date_created" value="2021-11-12 14:22:48"/>
+														<UML:TaggedValue tag="date_modified" value="2021-11-12 14:22:48"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package2" value="EAID_A5F6F7C1_5F37_4187_9CFA_8A662C1810D1"/>
+														<UML:TaggedValue tag="package_name" value="Natuurlijke Omgevingselementen (factoren)"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Eric Burgers"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="13137"/>
+														<UML:TaggedValue tag="ea_eleType" value="package"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+												<UML:ClassifierRole name="Biologisch" xmi.id="EAID_C961170D_3C00_4b3e_866F_E9794DFEA5E6" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Package"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_4BE71FDB_FB27_456a_B667_F6D0F1188153"/>
+														<UML:TaggedValue tag="date_created" value="2021-11-12 14:22:38"/>
+														<UML:TaggedValue tag="date_modified" value="2021-11-12 14:22:38"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package2" value="EAID_C961170D_3C00_4b3e_866F_E9794DFEA5E6"/>
+														<UML:TaggedValue tag="package_name" value="Natuurlijke Omgevingselementen (factoren)"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Eric Burgers"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="13136"/>
+														<UML:TaggedValue tag="ea_eleType" value="package"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+												<UML:ClassifierRole name="Terrein" xmi.id="EAID_ECBEF6F9_F036_4640_A0BB_97A487850673" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Package"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_4BE71FDB_FB27_456a_B667_F6D0F1188153"/>
+														<UML:TaggedValue tag="date_created" value="2021-11-12 14:22:58"/>
+														<UML:TaggedValue tag="date_modified" value="2021-11-12 14:22:59"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package2" value="EAID_ECBEF6F9_F036_4640_A0BB_97A487850673"/>
+														<UML:TaggedValue tag="package_name" value="Natuurlijke Omgevingselementen (factoren)"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Eric Burgers"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="13138"/>
+														<UML:TaggedValue tag="ea_eleType" value="package"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+											</UML:Namespace.ownedElement>
+											<UML:Collaboration.interaction/>
+										</UML:Collaboration>
+										<UML:Package name="Biologisch" xmi.id="EAPK_C961170D_3C00_4b3e_866F_E9794DFEA5E6" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="parent" value="EAPK_4BE71FDB_FB27_456a_B667_F6D0F1188153"/>
+												<UML:TaggedValue tag="created" value="2021-11-12 14:22:38"/>
+												<UML:TaggedValue tag="modified" value="2021-11-12 14:22:38"/>
+												<UML:TaggedValue tag="iscontrolled" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isprotected" value="0"/>
+												<UML:TaggedValue tag="usedtd" value="0"/>
+												<UML:TaggedValue tag="logxml" value="0"/>
+												<UML:TaggedValue tag="batchsave" value="0"/>
+												<UML:TaggedValue tag="batchload" value="0"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="author" value="Eric Burgers"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="ea_stype" value="Public"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Namespace.ownedElement/>
+										</UML:Package>
+										<UML:Package name="Klimaat" xmi.id="EAPK_A5F6F7C1_5F37_4187_9CFA_8A662C1810D1" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="parent" value="EAPK_4BE71FDB_FB27_456a_B667_F6D0F1188153"/>
+												<UML:TaggedValue tag="created" value="2021-11-12 14:22:48"/>
+												<UML:TaggedValue tag="modified" value="2021-11-12 14:22:48"/>
+												<UML:TaggedValue tag="iscontrolled" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isprotected" value="0"/>
+												<UML:TaggedValue tag="usedtd" value="0"/>
+												<UML:TaggedValue tag="logxml" value="0"/>
+												<UML:TaggedValue tag="batchsave" value="0"/>
+												<UML:TaggedValue tag="batchload" value="0"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="author" value="Eric Burgers"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="ea_stype" value="Public"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Namespace.ownedElement/>
+										</UML:Package>
+										<UML:Package name="Terrein" xmi.id="EAPK_ECBEF6F9_F036_4640_A0BB_97A487850673" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="parent" value="EAPK_4BE71FDB_FB27_456a_B667_F6D0F1188153"/>
+												<UML:TaggedValue tag="created" value="2021-11-12 14:22:58"/>
+												<UML:TaggedValue tag="modified" value="2021-11-12 14:22:59"/>
+												<UML:TaggedValue tag="iscontrolled" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isprotected" value="0"/>
+												<UML:TaggedValue tag="usedtd" value="0"/>
+												<UML:TaggedValue tag="logxml" value="0"/>
+												<UML:TaggedValue tag="batchsave" value="0"/>
+												<UML:TaggedValue tag="batchload" value="0"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="author" value="Eric Burgers"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="ea_stype" value="Public"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Namespace.ownedElement>
+												<UML:Collaboration xmi.id="EAID_ECBEF6F9_F036_4640_A0BB_97A487850673_Collaboration" name="Collaborations">
+													<UML:Namespace.ownedElement>
+														<UML:ClassifierRole name="Droge infrastructuur" xmi.id="EAID_927B9ECB_6EAC_476a_81E6_34C4BEEDA437" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Package"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_ECBEF6F9_F036_4640_A0BB_97A487850673"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:24:18"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:24:18"/>
+																<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package2" value="EAID_927B9ECB_6EAC_476a_81E6_34C4BEEDA437"/>
+																<UML:TaggedValue tag="package_name" value="Terrein"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="13139"/>
+																<UML:TaggedValue tag="ea_eleType" value="package"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="Natte Infrastructuur" xmi.id="EAID_CAF22742_6DD9_443f_994E_C4E88525DE70" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Package"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_ECBEF6F9_F036_4640_A0BB_97A487850673"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:24:30"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:24:30"/>
+																<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package2" value="EAID_CAF22742_6DD9_443f_994E_C4E88525DE70"/>
+																<UML:TaggedValue tag="package_name" value="Terrein"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="13140"/>
+																<UML:TaggedValue tag="ea_eleType" value="package"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+													</UML:Namespace.ownedElement>
+													<UML:Collaboration.interaction/>
+												</UML:Collaboration>
+												<UML:Package name="Droge infrastructuur" xmi.id="EAPK_927B9ECB_6EAC_476a_81E6_34C4BEEDA437" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="parent" value="EAPK_ECBEF6F9_F036_4640_A0BB_97A487850673"/>
+														<UML:TaggedValue tag="created" value="2021-11-12 14:24:18"/>
+														<UML:TaggedValue tag="modified" value="2021-11-12 14:24:18"/>
+														<UML:TaggedValue tag="iscontrolled" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isprotected" value="0"/>
+														<UML:TaggedValue tag="usedtd" value="0"/>
+														<UML:TaggedValue tag="logxml" value="0"/>
+														<UML:TaggedValue tag="batchsave" value="0"/>
+														<UML:TaggedValue tag="batchload" value="0"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="author" value="Eric Burgers"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="ea_stype" value="Public"/>
+													</UML:ModelElement.taggedValue>
+													<UML:Namespace.ownedElement/>
+												</UML:Package>
+												<UML:Package name="Natte Infrastructuur" xmi.id="EAPK_CAF22742_6DD9_443f_994E_C4E88525DE70" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="parent" value="EAPK_ECBEF6F9_F036_4640_A0BB_97A487850673"/>
+														<UML:TaggedValue tag="created" value="2021-11-12 14:24:30"/>
+														<UML:TaggedValue tag="modified" value="2021-11-12 14:24:30"/>
+														<UML:TaggedValue tag="iscontrolled" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isprotected" value="0"/>
+														<UML:TaggedValue tag="usedtd" value="0"/>
+														<UML:TaggedValue tag="logxml" value="0"/>
+														<UML:TaggedValue tag="batchsave" value="0"/>
+														<UML:TaggedValue tag="batchload" value="0"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="author" value="Eric Burgers"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="ea_stype" value="Public"/>
+													</UML:ModelElement.taggedValue>
+													<UML:Namespace.ownedElement/>
+												</UML:Package>
+											</UML:Namespace.ownedElement>
+										</UML:Package>
+									</UML:Namespace.ownedElement>
+								</UML:Package>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="Hogere Orde Systemen" xmi.id="EAPK_8A5A62C4_3A2C_45be_8229_7767DC612C2C" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_047E66F6_5B61_4ad2_8671_452D6926D02C"/>
+								<UML:TaggedValue tag="created" value="2021-11-12 14:27:47"/>
+								<UML:TaggedValue tag="modified" value="2021-11-12 14:27:47"/>
+								<UML:TaggedValue tag="iscontrolled" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="0"/>
+								<UML:TaggedValue tag="usedtd" value="0"/>
+								<UML:TaggedValue tag="logxml" value="0"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Eric Burgers"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Collaboration xmi.id="EAID_8A5A62C4_3A2C_45be_8229_7767DC612C2C_Collaboration" name="Collaborations">
+									<UML:Namespace.ownedElement>
+										<UML:ClassifierRole name="Operationele beperkingen" xmi.id="EAID_0F6CEC5F_A932_4339_A356_66420D85447D" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_8A5A62C4_3A2C_45be_8229_7767DC612C2C"/>
+												<UML:TaggedValue tag="date_created" value="2021-11-12 14:35:51"/>
+												<UML:TaggedValue tag="date_modified" value="2021-11-12 14:35:51"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_0F6CEC5F_A932_4339_A356_66420D85447D"/>
+												<UML:TaggedValue tag="package_name" value="Hogere Orde Systemen"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Eric Burgers"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="13146"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Doelen" xmi.id="EAID_12310599_9DB1_4e48_90A6_4135B14DE883" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_8A5A62C4_3A2C_45be_8229_7767DC612C2C"/>
+												<UML:TaggedValue tag="date_created" value="2021-11-12 14:35:37"/>
+												<UML:TaggedValue tag="date_modified" value="2021-11-12 14:35:37"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_12310599_9DB1_4e48_90A6_4135B14DE883"/>
+												<UML:TaggedValue tag="package_name" value="Hogere Orde Systemen"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Eric Burgers"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="13145"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Operationele Scenarios" xmi.id="EAID_AA27BF88_CD55_4d81_881E_F512365B0949" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_8A5A62C4_3A2C_45be_8229_7767DC612C2C"/>
+												<UML:TaggedValue tag="date_created" value="2021-11-12 14:37:56"/>
+												<UML:TaggedValue tag="date_modified" value="2021-11-12 14:37:56"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_AA27BF88_CD55_4d81_881E_F512365B0949"/>
+												<UML:TaggedValue tag="package_name" value="Hogere Orde Systemen"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Eric Burgers"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="13150"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Definities" xmi.id="EAID_AEC4372A_542C_4d55_9CE0_C22FC786C7E2" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_8A5A62C4_3A2C_45be_8229_7767DC612C2C"/>
+												<UML:TaggedValue tag="date_created" value="2021-11-12 14:35:09"/>
+												<UML:TaggedValue tag="date_modified" value="2021-11-12 14:35:09"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_AEC4372A_542C_4d55_9CE0_C22FC786C7E2"/>
+												<UML:TaggedValue tag="package_name" value="Hogere Orde Systemen"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Eric Burgers"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="13144"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Belanghebbenden" xmi.id="EAID_D1BE3533_274A_44dd_9135_5B85DC105701" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_8A5A62C4_3A2C_45be_8229_7767DC612C2C"/>
+												<UML:TaggedValue tag="date_created" value="2021-11-12 14:34:58"/>
+												<UML:TaggedValue tag="date_modified" value="2021-11-12 14:34:58"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_D1BE3533_274A_44dd_9135_5B85DC105701"/>
+												<UML:TaggedValue tag="package_name" value="Hogere Orde Systemen"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Eric Burgers"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="13143"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+									</UML:Namespace.ownedElement>
+									<UML:Collaboration.interaction/>
+								</UML:Collaboration>
+								<UML:Package name="Belanghebbenden" xmi.id="EAPK_D1BE3533_274A_44dd_9135_5B85DC105701" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="parent" value="EAPK_8A5A62C4_3A2C_45be_8229_7767DC612C2C"/>
+										<UML:TaggedValue tag="created" value="2021-11-12 14:34:58"/>
+										<UML:TaggedValue tag="modified" value="2021-11-12 14:34:58"/>
+										<UML:TaggedValue tag="iscontrolled" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="0"/>
+										<UML:TaggedValue tag="usedtd" value="0"/>
+										<UML:TaggedValue tag="logxml" value="0"/>
+										<UML:TaggedValue tag="batchsave" value="0"/>
+										<UML:TaggedValue tag="batchload" value="0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="Eric Burgers"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement/>
+								</UML:Package>
+								<UML:Package name="Definities" xmi.id="EAPK_AEC4372A_542C_4d55_9CE0_C22FC786C7E2" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="parent" value="EAPK_8A5A62C4_3A2C_45be_8229_7767DC612C2C"/>
+										<UML:TaggedValue tag="created" value="2021-11-12 14:35:09"/>
+										<UML:TaggedValue tag="modified" value="2021-11-12 14:35:09"/>
+										<UML:TaggedValue tag="iscontrolled" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="0"/>
+										<UML:TaggedValue tag="usedtd" value="0"/>
+										<UML:TaggedValue tag="logxml" value="0"/>
+										<UML:TaggedValue tag="batchsave" value="0"/>
+										<UML:TaggedValue tag="batchload" value="0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="Eric Burgers"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement/>
+								</UML:Package>
+								<UML:Package name="Doelen" xmi.id="EAPK_12310599_9DB1_4e48_90A6_4135B14DE883" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="parent" value="EAPK_8A5A62C4_3A2C_45be_8229_7767DC612C2C"/>
+										<UML:TaggedValue tag="created" value="2021-11-12 14:35:37"/>
+										<UML:TaggedValue tag="modified" value="2021-11-12 14:35:37"/>
+										<UML:TaggedValue tag="iscontrolled" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="0"/>
+										<UML:TaggedValue tag="usedtd" value="0"/>
+										<UML:TaggedValue tag="logxml" value="0"/>
+										<UML:TaggedValue tag="batchsave" value="0"/>
+										<UML:TaggedValue tag="batchload" value="0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="Eric Burgers"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement/>
+								</UML:Package>
+								<UML:Package name="Operationele beperkingen" xmi.id="EAPK_0F6CEC5F_A932_4339_A356_66420D85447D" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="parent" value="EAPK_8A5A62C4_3A2C_45be_8229_7767DC612C2C"/>
+										<UML:TaggedValue tag="created" value="2021-11-12 14:35:51"/>
+										<UML:TaggedValue tag="modified" value="2021-11-12 14:35:51"/>
+										<UML:TaggedValue tag="iscontrolled" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="0"/>
+										<UML:TaggedValue tag="usedtd" value="0"/>
+										<UML:TaggedValue tag="logxml" value="0"/>
+										<UML:TaggedValue tag="batchsave" value="0"/>
+										<UML:TaggedValue tag="batchload" value="0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="Eric Burgers"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement>
+										<UML:Collaboration xmi.id="EAID_0F6CEC5F_A932_4339_A356_66420D85447D_Collaboration" name="Collaborations">
+											<UML:Namespace.ownedElement>
+												<UML:ClassifierRole name="Natuurwetten" xmi.id="EAID_3CD0A7F0_2415_4b24_BD5B_13ADFA06E355" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Package"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_0F6CEC5F_A932_4339_A356_66420D85447D"/>
+														<UML:TaggedValue tag="date_created" value="2021-11-12 14:36:06"/>
+														<UML:TaggedValue tag="date_modified" value="2021-11-12 14:36:06"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package2" value="EAID_3CD0A7F0_2415_4b24_BD5B_13ADFA06E355"/>
+														<UML:TaggedValue tag="package_name" value="Operationele beperkingen"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Eric Burgers"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="13147"/>
+														<UML:TaggedValue tag="ea_eleType" value="package"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+												<UML:ClassifierRole name="Standaarden" xmi.id="EAID_8470DDE8_4208_4ba4_AAA0_DC45CA921A9E" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Package"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_0F6CEC5F_A932_4339_A356_66420D85447D"/>
+														<UML:TaggedValue tag="date_created" value="2021-11-12 14:36:25"/>
+														<UML:TaggedValue tag="date_modified" value="2021-11-12 14:36:25"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package2" value="EAID_8470DDE8_4208_4ba4_AAA0_DC45CA921A9E"/>
+														<UML:TaggedValue tag="package_name" value="Operationele beperkingen"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Eric Burgers"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="13148"/>
+														<UML:TaggedValue tag="ea_eleType" value="package"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+												<UML:ClassifierRole name="Wet- en Regelgeving" xmi.id="EAID_A54ACD66_012F_4fea_9665_6A5853BE8145" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Package"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_0F6CEC5F_A932_4339_A356_66420D85447D"/>
+														<UML:TaggedValue tag="date_created" value="2021-11-12 14:36:39"/>
+														<UML:TaggedValue tag="date_modified" value="2021-11-12 14:36:39"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package2" value="EAID_A54ACD66_012F_4fea_9665_6A5853BE8145"/>
+														<UML:TaggedValue tag="package_name" value="Operationele beperkingen"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Eric Burgers"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="13149"/>
+														<UML:TaggedValue tag="ea_eleType" value="package"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+												<UML:ClassifierRole name="SI-eenheden" xmi.id="EAID_C0ED97E4_AB21_412e_96F5_94D31A68A4A8" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.stereotype>
+														<UML:Stereotype name="ModelLibrary"/>
+													</UML:ModelElement.stereotype>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Package"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_0F6CEC5F_A932_4339_A356_66420D85447D"/>
+														<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:54"/>
+														<UML:TaggedValue tag="date_modified" value="2021-03-17 11:00:21"/>
+														<UML:TaggedValue tag="gentype" value="Java"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package2" value="EAID_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+														<UML:TaggedValue tag="package_name" value="Operationele beperkingen"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Eric Burgers"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="stereotype" value="ModelLibrary"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="13151"/>
+														<UML:TaggedValue tag="ea_eleType" value="package"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={A06A27BE-D911-4850-86C8-BAB8E4028F8A}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=ModelLibrary;FQName=StandardProfileL2::ModelLibrary;@ENDSTEREO;$DES;$CLT={C0ED97E4-AB21-412e-96F5-94D31A68A4A8}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+											</UML:Namespace.ownedElement>
+											<UML:Collaboration.interaction/>
+										</UML:Collaboration>
+										<UML:Package name="Natuurwetten" xmi.id="EAPK_3CD0A7F0_2415_4b24_BD5B_13ADFA06E355" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="parent" value="EAPK_0F6CEC5F_A932_4339_A356_66420D85447D"/>
+												<UML:TaggedValue tag="created" value="2021-11-12 14:36:06"/>
+												<UML:TaggedValue tag="modified" value="2021-11-12 14:36:06"/>
+												<UML:TaggedValue tag="iscontrolled" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isprotected" value="0"/>
+												<UML:TaggedValue tag="usedtd" value="0"/>
+												<UML:TaggedValue tag="logxml" value="0"/>
+												<UML:TaggedValue tag="batchsave" value="0"/>
+												<UML:TaggedValue tag="batchload" value="0"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="author" value="Eric Burgers"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="ea_stype" value="Public"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Namespace.ownedElement/>
+										</UML:Package>
+										<UML:Package name="Standaarden" xmi.id="EAPK_8470DDE8_4208_4ba4_AAA0_DC45CA921A9E" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="parent" value="EAPK_0F6CEC5F_A932_4339_A356_66420D85447D"/>
+												<UML:TaggedValue tag="created" value="2021-11-12 14:36:25"/>
+												<UML:TaggedValue tag="modified" value="2021-11-12 14:36:25"/>
+												<UML:TaggedValue tag="iscontrolled" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isprotected" value="0"/>
+												<UML:TaggedValue tag="usedtd" value="0"/>
+												<UML:TaggedValue tag="logxml" value="0"/>
+												<UML:TaggedValue tag="batchsave" value="0"/>
+												<UML:TaggedValue tag="batchload" value="0"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="author" value="Eric Burgers"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="ea_stype" value="Public"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Namespace.ownedElement/>
+										</UML:Package>
+										<UML:Package name="Wet- en Regelgeving" xmi.id="EAPK_A54ACD66_012F_4fea_9665_6A5853BE8145" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="parent" value="EAPK_0F6CEC5F_A932_4339_A356_66420D85447D"/>
+												<UML:TaggedValue tag="created" value="2021-11-12 14:36:39"/>
+												<UML:TaggedValue tag="modified" value="2021-11-12 14:36:39"/>
+												<UML:TaggedValue tag="iscontrolled" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isprotected" value="0"/>
+												<UML:TaggedValue tag="usedtd" value="0"/>
+												<UML:TaggedValue tag="logxml" value="0"/>
+												<UML:TaggedValue tag="batchsave" value="0"/>
+												<UML:TaggedValue tag="batchload" value="0"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="author" value="Eric Burgers"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="ea_stype" value="Public"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Namespace.ownedElement/>
+										</UML:Package>
+										<UML:Package name="SI-eenheden" xmi.id="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype xmi.idref="EAID_BA850A97_3419_459c_846C_83B2F3DBAA85"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="parent" value="EAPK_0F6CEC5F_A932_4339_A356_66420D85447D"/>
+												<UML:TaggedValue tag="created" value="2021-11-12 14:38:54"/>
+												<UML:TaggedValue tag="modified" value="2021-11-12 14:38:59"/>
+												<UML:TaggedValue tag="iscontrolled" value="0"/>
+												<UML:TaggedValue tag="lastloaddate" value="2018-12-04 21:00:55"/>
+												<UML:TaggedValue tag="lastsavedate" value="2018-12-04 21:00:55"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isprotected" value="0"/>
+												<UML:TaggedValue tag="usedtd" value="0"/>
+												<UML:TaggedValue tag="logxml" value="0"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="batchsave" value="0"/>
+												<UML:TaggedValue tag="batchload" value="0"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="author" value="Eric Burgers"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="stereotype" value="ModelLibrary"/>
+												<UML:TaggedValue tag="ea_stype" value="Public"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Namespace.ownedElement>
+												<UML:Collaboration xmi.id="EAID_C0ED97E4_AB21_412e_96F5_94D31A68A4A8_Collaboration" name="Collaborations">
+													<UML:Namespace.ownedElement>
+														<UML:ClassifierRole name="seconde" xmi.id="EAID_0013CCA0_23B0_4757_960E_D71A7E620F49" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:57"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:57"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=quantityKind;Value=tijd;Op==;@ENDVAR;@VAR;Variable=symbol;Value=s;Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=definitionURI;Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111895"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="tijd" xmi.id="EAID_03FBAF29_900C_4320_826A_48E398A9E308" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:58"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:58"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Seconde;Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=symbol;Value=s;Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111908"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="elektrisch potentiaalverschil" xmi.id="EAID_04E8CA88_CE36_49fc_8145_5D076095993F" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:57"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:57"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Elektrische_spanning;Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=symbol;Value=V;Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111899"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="volt" xmi.id="EAID_053903CF_6A51_4c49_A8AC_1077513E64D0" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:56"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:56"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=quantityKind;Value=elektrisch potentiaalverschil;Op==;@ENDVAR;@VAR;Variable=symbol;Value=V;Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Volt_(eenheid);Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111892"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="energie" xmi.id="EAID_0B2F66F1_9DDB_4054_8F4A_7F1CDC20F70A" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:57"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:57"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Energie;Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=symbol;Value=J;Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111893"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="temperatuur" xmi.id="EAID_1651771B_E922_4fc6_B54C_D929C6050FC8" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:57"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:57"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Temperatuur;Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=symbol;Value=°C;Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111898"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="hertz" xmi.id="EAID_1F5EF49C_4DB2_41a3_BC55_F635E0332081" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:57"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:57"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=quantityKind;Value=frequentie;Op==;@ENDVAR;@VAR;Variable=symbol;Value=Hz;Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Hertz_(eenheid);Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111900"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="Nm" xmi.id="EAID_221A63BA_1851_4322_9704_8F01A1D9FDFF" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:57"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:57"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=quantityKind;Value=koppel;Op==;@ENDVAR;@VAR;Variable=symbol;Value=Nm;Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=definitionURI;Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111897"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="pascal" xmi.id="EAID_2EB7922D_813B_42af_B85F_D08E940C8E97" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:59"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:59"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=quantityKind;Value=druk;Op==;@ENDVAR;@VAR;Variable=symbol;Value=Pa;Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Pascal_(eenheid);Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111915"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="Ton" xmi.id="EAID_3FCA39DF_E551_4d06_A4CC_6A295A74D1C5" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:56"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:56"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Ton Vos"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=quantityKind;Value=massa;Op==;@ENDVAR;@VAR;Variable=symbol;Value=t;Op==;@ENDVAR;@VAR;Variable=description;Value=1000 kg;Op==;@ENDVAR;@VAR;Variable=definitionURI;Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111888"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="vermogen" xmi.id="EAID_41B74F53_238F_45b3_BE16_0C75FC3D6E10" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:56"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:56"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Vermogen_(natuurkunde);Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=symbol;Value=W;Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111885"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="newton" xmi.id="EAID_4AE00F17_C47B_4adf_83F7_3CC412289B8F" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:57"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:57"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=quantityKind;Value=kracht;Op==;@ENDVAR;@VAR;Variable=symbol;Value=N;Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Newton_(eenheid);Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111896"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="hoeveelheid stof" xmi.id="EAID_50E4E006_CE85_4a11_9425_1D8E887DDED8" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:58"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:58"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Stofhoeveelheid;Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=symbol;Value=mol;Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111904"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="druk" xmi.id="EAID_53192763_AD55_49d8_8360_5EA4C5052EA7" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:56"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:56"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Druk_(grootheid);Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=symbol;Value=Pa;Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111889"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="frequentie" xmi.id="EAID_56CCD118_6573_4b39_8CDF_F665C24AF2A1" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:56"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:56"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Frequentie;Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=symbol;Value=Hz;Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111890"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="ampère" xmi.id="EAID_5821C3F7_6C01_4da5_BB67_0F9F2B59563D" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:56"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:56"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=quantityKind;Value=elektrische stroom;Op==;@ENDVAR;@VAR;Variable=symbol;Value=A;Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Amp%C3%A8re_(eenheid);Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111886"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="lichtsterkte" xmi.id="EAID_5F4B068F_93E1_4ae0_876B_08A26F1926F1" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:58"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:58"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Lichtsterkte_(fotometrie);Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=symbol;Value=cd;Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111901"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="watt" xmi.id="EAID_635CED13_336E_47b0_848F_2A33F175950D" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:58"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:58"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=quantityKind;Value=vermogen;Op==;@ENDVAR;@VAR;Variable=symbol;Value=W;Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Watt_(eenheid);Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111902"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="meter" xmi.id="EAID_6733F53C_5D2D_4894_907C_5924448C8738" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:59"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:59"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=quantityKind;Value=lengte;Op==;@ENDVAR;@VAR;Variable=symbol;Value=m;Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Lengte_(meetkunde);Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111914"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="thermodynamische temperatuur" xmi.id="EAID_6F05F7D9_F428_48fb_88D6_C96AC5BBCD65" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:59"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:59"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Kelvin_(eenheid);Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=symbol;Value=K;Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111913"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="elektrische weerstand" xmi.id="EAID_710B6446_AF77_4955_BC3D_C912480F9FAE" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:58"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:58"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Elektrische_weerstand_(eigenschap);Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=symbol;Value=&#937;;Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111903"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="joule" xmi.id="EAID_78EBAB14_4E2E_4910_9FAE_D56472179AB2" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:57"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:57"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=quantityKind;Value=energie;Op==;@ENDVAR;@VAR;Variable=symbol;Value=J;Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Joule;Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111894"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="kilogram" xmi.id="EAID_7EC0942E_96D1_4d8d_ADCA_0E2475A4D90C" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:56"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:56"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=quantityKind;Value=massa;Op==;@ENDVAR;@VAR;Variable=symbol;Value=kg;Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Kilogram;Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111891"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="kracht" xmi.id="EAID_83F0EE08_E6A4_428c_969F_A5198A53A7A9" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:59"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:59"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Kracht;Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=symbol;Value=N;Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111912"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="candela" xmi.id="EAID_897EBE71_B995_447a_AB39_9C06C22A7032" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:58"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:58"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=quantityKind;Value=lichtsterkte;Op==;@ENDVAR;@VAR;Variable=symbol;Value=cd;Op==;@ENDVAR;@VAR;Variable=description;Value=De candela is de SI-eenheid van lichtsterkte;Op==;@ENDVAR;@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Candela_(eenheid);Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111906"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="koppel" xmi.id="EAID_9D3F74AF_9053_48eb_8DC8_8110A6A8B6E5" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:58"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:58"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=definitionURI;Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=symbol;Value=Nm;Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111907"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="kelvin" xmi.id="EAID_A404936E_4765_4344_B474_7CCE20627488" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:58"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:58"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=quantityKind;Value=thermodynamische temperatuur;Op==;@ENDVAR;@VAR;Variable=symbol;Value=K;Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Kelvin_(eenheid);Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111905"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="lengte" xmi.id="EAID_AE88F84A_397C_4647_986C_E1E9033C06A0" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:59"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:59"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Lengte_(meetkunde);Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=symbol;Value=m;Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111909"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="elektrische stroom" xmi.id="EAID_AFB31247_6691_4aca_B46D_C92001F966F6" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:59"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:59"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Elektrische_stroom;Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=symbol;Value=A;Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111910"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="graden celsius" xmi.id="EAID_B83FF7AB_A119_47ee_A711_EFAB1AF7AE32" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:55"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:55"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=quantityKind;Value=temperatuur;Op==;@ENDVAR;@VAR;Variable=symbol;Value=°C;Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Celsius;Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111884"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="massa" xmi.id="EAID_C4FFF251_9E3A_4861_8526_57538AD50883" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:59"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:59"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Massa_(natuurkunde);Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=symbol;Value=kg;Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111916"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="ohm" xmi.id="EAID_E6795496_ABA2_4360_B170_3D29A9761C5C" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:59"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:59"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=quantityKind;Value=elektrische weerstand;Op==;@ENDVAR;@VAR;Variable=symbol;Value=&#937;;Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Ohm_(eenheid);Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111911"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+														<UML:ClassifierRole name="mol" xmi.id="EAID_E7B16D66_A630_43d9_BE71_F8E29D1DE1C6" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+															<UML:ModelElement.taggedValue>
+																<UML:TaggedValue tag="isAbstract" value="false"/>
+																<UML:TaggedValue tag="isSpecification" value="false"/>
+																<UML:TaggedValue tag="ea_stype" value="Object"/>
+																<UML:TaggedValue tag="ea_ntype" value="0"/>
+																<UML:TaggedValue tag="version" value="1.0"/>
+																<UML:TaggedValue tag="isActive" value="false"/>
+																<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+																<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:56"/>
+																<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:56"/>
+																<UML:TaggedValue tag="gentype" value="C++"/>
+																<UML:TaggedValue tag="tagged" value="0"/>
+																<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+																<UML:TaggedValue tag="phase" value="1.0"/>
+																<UML:TaggedValue tag="author" value="Eric Burgers"/>
+																<UML:TaggedValue tag="complexity" value="1"/>
+																<UML:TaggedValue tag="status" value="Proposed"/>
+																<UML:TaggedValue tag="runstate" value="@VAR;Variable=quantityKind;Value=hoeveelheid stof;Op==;@ENDVAR;@VAR;Variable=symbol;Value=mol;Op==;@ENDVAR;@VAR;Variable=description;Op==;@ENDVAR;@VAR;Variable=definitionURI;Value=https://nl.wikipedia.org/wiki/Mol_(eenheid);Op==;@ENDVAR;"/>
+																<UML:TaggedValue tag="tpos" value="0"/>
+																<UML:TaggedValue tag="ea_localid" value="111887"/>
+																<UML:TaggedValue tag="ea_eleType" value="element"/>
+																<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+															</UML:ModelElement.taggedValue>
+														</UML:ClassifierRole>
+													</UML:Namespace.ownedElement>
+													<UML:Collaboration.interaction/>
+												</UML:Collaboration>
+												<UML:Comment xmi.id="EAID_2877E8DC_DD2B_46db_BB8E_EB01C117FC71" visibility="public" namespace="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="&lt;b&gt;Tip voor units en quantity kinds in SysML 1.5&lt;/b&gt;&#xA;&#xA;ctrl + shift + 'R'  om in te vullen&#xA;of context menu voor Features |  Set Run State"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Note"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+														<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:55"/>
+														<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:55"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Eric Burgers"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="111881"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:Comment>
+												<UML:Comment xmi.id="EAID_2F4AD7A3_301C_456e_AE38_B6BEBD665FE9" visibility="public" namespace="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="opmerking: dit zijn niet alle afgeleide SI-eenheden"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Text"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+														<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:55"/>
+														<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:55"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Eric Burgers"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="111880"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:Comment>
+												<UML:Comment xmi.id="EAID_7FD3572F_1A8A_47ac_86CB_ACAA4B2D7DB1" visibility="public" namespace="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="Quantity kinds:"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Text"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+														<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:55"/>
+														<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:55"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Eric Burgers"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="111882"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:Comment>
+												<UML:Comment xmi.id="EAID_8F6CD5BA_DC00_4887_AED6_8B7058EDAB58" visibility="public" namespace="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="Units:"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Text"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+														<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:55"/>
+														<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:55"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Eric Burgers"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="111883"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:Comment>
+												<UML:Comment xmi.id="EAID_CF3831BF_04C5_4747_B719_FCD40A3C4D64" visibility="public" namespace="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="Units"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Text"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+														<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:55"/>
+														<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:55"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Eric Burgers"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="111878"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:Comment>
+												<UML:Comment xmi.id="EAID_D0A2E75B_4247_4108_9737_0035E7E90036" visibility="public" namespace="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="Quantity kinds"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Text"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+														<UML:TaggedValue tag="date_created" value="2021-11-12 14:38:55"/>
+														<UML:TaggedValue tag="date_modified" value="2021-11-12 14:38:55"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="SI-eenheden"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Eric Burgers"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="111879"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:Comment>
+											</UML:Namespace.ownedElement>
+										</UML:Package>
+									</UML:Namespace.ownedElement>
+								</UML:Package>
+								<UML:Package name="Operationele Scenarios" xmi.id="EAPK_AA27BF88_CD55_4d81_881E_F512365B0949" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="parent" value="EAPK_8A5A62C4_3A2C_45be_8229_7767DC612C2C"/>
+										<UML:TaggedValue tag="created" value="2021-11-12 14:37:55"/>
+										<UML:TaggedValue tag="modified" value="2021-11-12 14:37:55"/>
+										<UML:TaggedValue tag="iscontrolled" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="0"/>
+										<UML:TaggedValue tag="usedtd" value="0"/>
+										<UML:TaggedValue tag="logxml" value="0"/>
+										<UML:TaggedValue tag="batchsave" value="0"/>
+										<UML:TaggedValue tag="batchload" value="0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="Eric Burgers"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement/>
+								</UML:Package>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+				<UML:Stereotype xmi.id="EAID_BA850A97_3419_459c_846C_83B2F3DBAA85" name="ModelLibrary" isRoot="false" isLeaf="false" isAbstract="false">
+					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
+				</UML:Stereotype>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:TaggedValue tag="isEncapsulated" xmi.id="EAID_501B1315_B5D3_0eb5_A331_A23E8AD96C64" value="#NOTES#Values: true,false&#xA;" modelElement="EAID_69462735_C152_4782_B3DD_C7B23F15BED8"/>
+		<UML:Diagram name="Decompositie" xmi.id="EAID_F92797B3_0B86_4846_9012_5C5A48CAF33A" diagramType="ClassDiagram" owner="EAPK_DD7B95BC_5515_4272_B4F4_BDEF41247288" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Eric Burgers"/>
+				<UML:TaggedValue tag="created_date" value="2021-11-12 14:26:29"/>
+				<UML:TaggedValue tag="modified_date" value="2021-11-12 16:54:43"/>
+				<UML:TaggedValue tag="package" value="EAPK_DD7B95BC_5515_4272_B4F4_BDEF41247288"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="21321"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=0;HighlightForeign=0;PackageContents=0;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=776;DocSize.cy=1071;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=7B3A961F;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=SysML1.4::BlockDefinition;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;SF=1;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=399;Top=88;Right=489;Bottom=158;" subject="EAID_69462735_C152_4782_B3DD_C7B23F15BED8" seqno="1" style="DUID=AA0D780A;HideIcon=0;AttPro=0;AttPkg=0;AttPub=0;Constraint=1;AttPri=0;"/>
+				<UML:DiagramElement geometry="Left=10;Top=10;Right=526;Bottom=195;" subject="EAID_DD7B95BC_5515_4272_B4F4_BDEF41247288" seqno="2" style=" DUID=23B7C306;NSL=1;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Biologische factoren" xmi.id="EAID_1C445FA6_7797_4616_926C_C0EBE970B7EB" diagramType="ClassDiagram" owner="EAPK_C961170D_3C00_4b3e_866F_E9794DFEA5E6" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Eric Burgers"/>
+				<UML:TaggedValue tag="created_date" value="2021-11-12 14:23:16"/>
+				<UML:TaggedValue tag="modified_date" value="2021-11-12 14:23:17"/>
+				<UML:TaggedValue tag="package" value="EAPK_C961170D_3C00_4b3e_866F_E9794DFEA5E6"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="21318"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=0;HighlightForeign=0;PackageContents=0;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=776;DocSize.cy=1071;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=FFFA995B;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=SysML1.4::BlockDefinition;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;SF=1;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=10;Top=10;Right=228;Bottom=110;" subject="EAID_C961170D_3C00_4b3e_866F_E9794DFEA5E6" seqno="1" style=" DUID=F794FD45;NSL=1;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Klimatologische factoren" xmi.id="EAID_E63628EA_EFE3_4518_8598_EAA741DFD49C" diagramType="ClassDiagram" owner="EAPK_A5F6F7C1_5F37_4187_9CFA_8A662C1810D1" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Eric Burgers"/>
+				<UML:TaggedValue tag="created_date" value="2021-11-12 14:23:30"/>
+				<UML:TaggedValue tag="modified_date" value="2021-11-12 14:23:31"/>
+				<UML:TaggedValue tag="package" value="EAPK_A5F6F7C1_5F37_4187_9CFA_8A662C1810D1"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="21319"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=0;HighlightForeign=0;PackageContents=0;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=776;DocSize.cy=1071;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=C7DCA68E;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=SysML1.4::BlockDefinition;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;SF=1;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=10;Top=10;Right=235;Bottom=110;" subject="EAID_A5F6F7C1_5F37_4187_9CFA_8A662C1810D1" seqno="1" style=" DUID=F0B8CAF1;NSL=1;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Terrein" xmi.id="EAID_CAB87401_0C8E_4fae_A38F_BBC3A91444D1" diagramType="ClassDiagram" owner="EAPK_ECBEF6F9_F036_4640_A0BB_97A487850673" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Eric Burgers"/>
+				<UML:TaggedValue tag="created_date" value="2021-11-12 14:25:33"/>
+				<UML:TaggedValue tag="modified_date" value="2021-11-12 14:25:34"/>
+				<UML:TaggedValue tag="package" value="EAPK_ECBEF6F9_F036_4640_A0BB_97A487850673"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="21320"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=0;HighlightForeign=0;PackageContents=0;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=776;DocSize.cy=1071;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=6C36131F;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=SysML1.4::BlockDefinition;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;SF=1;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=10;Top=10;Right=210;Bottom=110;" subject="EAID_ECBEF6F9_F036_4640_A0BB_97A487850673" seqno="1" style=" DUID=99B90298;NSL=1;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Basiseenheden" xmi.id="EAID_F5F94486_A13B_4e9d_9BBD_CCC69C22F302" diagramType="ClassDiagram" owner="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Eric Burgers"/>
+				<UML:TaggedValue tag="created_date" value="2021-11-12 14:39:00"/>
+				<UML:TaggedValue tag="modified_date" value="2021-11-12 14:39:00"/>
+				<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="21322"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=0;HighlightForeign=0;PackageContents=0;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=791;DocSize.cy=1134;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=1;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=EB993A61;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=SysML1.4::BlockDefinition;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;SF=1;Theme=:103;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=480;Top=680;Right=852;Bottom=768;" subject="EAID_03FBAF29_900C_4320_826A_48E398A9E308" seqno="1" style="DUID=39CC460C;"/>
+				<UML:DiagramElement geometry="Left=70;Top=680;Right=453;Bottom=768;" subject="EAID_0013CCA0_23B0_4757_960E_D71A7E620F49" seqno="2" style="DUID=189E552C;"/>
+				<UML:DiagramElement geometry="Left=70;Top=580;Right=449;Bottom=668;" subject="EAID_6733F53C_5D2D_4894_907C_5924448C8738" seqno="3" style="DUID=623A4BB2;"/>
+				<UML:DiagramElement geometry="Left=480;Top=580;Right=859;Bottom=668;" subject="EAID_AE88F84A_397C_4647_986C_E1E9033C06A0" seqno="4" style="DUID=BD2FB7B3;"/>
+				<UML:DiagramElement geometry="Left=480;Top=480;Right=860;Bottom=568;" subject="EAID_C4FFF251_9E3A_4861_8526_57538AD50883" seqno="5" style="DUID=99D97EC4;"/>
+				<UML:DiagramElement geometry="Left=70;Top=480;Right=451;Bottom=568;" subject="EAID_7EC0942E_96D1_4d8d_ADCA_0E2475A4D90C" seqno="6" style="DUID=33E314E0;"/>
+				<UML:DiagramElement geometry="Left=70;Top=380;Right=450;Bottom=468;" subject="EAID_E7B16D66_A630_43d9_BE71_F8E29D1DE1C6" seqno="7" style="DUID=24499019;"/>
+				<UML:DiagramElement geometry="Left=480;Top=380;Right=860;Bottom=468;" subject="EAID_50E4E006_CE85_4a11_9425_1D8E887DDED8" seqno="8" style="DUID=66B75411;"/>
+				<UML:DiagramElement geometry="Left=480;Top=280;Right=860;Bottom=368;" subject="EAID_6F05F7D9_F428_48fb_88D6_C96AC5BBCD65" seqno="9" style="DUID=394ACC34;"/>
+				<UML:DiagramElement geometry="Left=70;Top=280;Right=450;Bottom=368;" subject="EAID_A404936E_4765_4344_B474_7CCE20627488" seqno="10" style="DUID=8D0D3C28;"/>
+				<UML:DiagramElement geometry="Left=480;Top=180;Right=860;Bottom=268;" subject="EAID_5F4B068F_93E1_4ae0_876B_08A26F1926F1" seqno="11" style="DUID=A5EA0C64;"/>
+				<UML:DiagramElement geometry="Left=480;Top=50;Right=730;Bottom=73;" subject="EAID_7FD3572F_1A8A_47ac_86CB_ACAA4B2D7DB1" seqno="12" style="DUID=497FEEE6;"/>
+				<UML:DiagramElement geometry="Left=70;Top=50;Right=320;Bottom=73;" subject="EAID_8F6CD5BA_DC00_4887_AED6_8B7058EDAB58" seqno="13" style="DUID=4420C691;"/>
+				<UML:DiagramElement geometry="Left=480;Top=80;Right=860;Bottom=168;" subject="EAID_AFB31247_6691_4aca_B46D_C92001F966F6" seqno="14" style="DUID=3186A770;"/>
+				<UML:DiagramElement geometry="Left=70;Top=180;Right=450;Bottom=268;" subject="EAID_897EBE71_B995_447a_AB39_9C06C22A7032" seqno="15" style="DUID=7FE1EF92;"/>
+				<UML:DiagramElement geometry="Left=70;Top=80;Right=450;Bottom=168;" subject="EAID_5821C3F7_6C01_4da5_BB67_0F9F2B59563D" seqno="16" style="DUID=648E2E74;"/>
+				<UML:DiagramElement geometry="Left=880;Top=80;Right=1110;Bottom=147;" subject="EAID_2877E8DC_DD2B_46db_BB8E_EB01C117FC71" seqno="17" style="DUID=2BE3DBEA;"/>
+				<UML:DiagramElement geometry="Left=10;Top=10;Right=1147;Bottom=805;" subject="EAID_C0ED97E4_AB21_412e_96F5_94D31A68A4A8" seqno="18" style=" DUID=4395D439;NSL=1;DUID=D4BDA7C4;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Afgeleide eenheden" xmi.id="EAID_9E7B5635_2AE6_46c9_9D88_628C3061C74A" diagramType="ClassDiagram" owner="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Eric Burgers"/>
+				<UML:TaggedValue tag="created_date" value="2021-11-12 14:39:00"/>
+				<UML:TaggedValue tag="modified_date" value="2021-11-12 14:39:00"/>
+				<UML:TaggedValue tag="package" value="EAPK_C0ED97E4_AB21_412e_96F5_94D31A68A4A8"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="21323"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=0;HighlightForeign=0;PackageContents=0;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=791;DocSize.cy=1134;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=1;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=28E2633C;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=SysML1.4::BlockDefinition;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;SF=1;Theme=:103;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=510;Top=1140;Right=880;Bottom=1228;" subject="EAID_9D3F74AF_9053_48eb_8DC8_8110A6A8B6E5" seqno="1" style="DUID=CD6EE7A3;"/>
+				<UML:DiagramElement geometry="Left=120;Top=1140;Right=460;Bottom=1228;" subject="EAID_221A63BA_1851_4322_9704_8F01A1D9FDFF" seqno="2" style="DUID=12FE0641;"/>
+				<UML:DiagramElement geometry="Left=120;Top=1020;Right=460;Bottom=1108;" subject="EAID_3FCA39DF_E551_4d06_A4CC_6A295A74D1C5" seqno="3" style="DUID=99DAF7CE;"/>
+				<UML:DiagramElement geometry="Left=530;Top=1010;Right=780;Bottom=1033;" subject="EAID_2F4AD7A3_301C_456e_AE38_B6BEBD665FE9" seqno="4" style="DUID=C422BA9A;"/>
+				<UML:DiagramElement geometry="Left=520;Top=894;Right=880;Bottom=982;" subject="EAID_1651771B_E922_4fc6_B54C_D929C6050FC8" seqno="5" style="DUID=47DBBAC5;"/>
+				<UML:DiagramElement geometry="Left=122;Top=897;Right=472;Bottom=985;" subject="EAID_B83FF7AB_A119_47ee_A711_EFAB1AF7AE32" seqno="6" style="DUID=7E177E39;"/>
+				<UML:DiagramElement geometry="Left=523;Top=780;Right=880;Bottom=872;" subject="EAID_04E8CA88_CE36_49fc_8145_5D076095993F" seqno="7" style="DUID=FB49856D;"/>
+				<UML:DiagramElement geometry="Left=122;Top=786;Right=472;Bottom=874;" subject="EAID_053903CF_6A51_4c49_A8AC_1077513E64D0" seqno="8" style="DUID=01AA2AB1;"/>
+				<UML:DiagramElement geometry="Left=520;Top=670;Right=880;Bottom=758;" subject="EAID_41B74F53_238F_45b3_BE16_0C75FC3D6E10" seqno="9" style="DUID=68A008AA;"/>
+				<UML:DiagramElement geometry="Left=122;Top=675;Right=472;Bottom=763;" subject="EAID_635CED13_336E_47b0_848F_2A33F175950D" seqno="10" style="DUID=4E97ECDF;"/>
+				<UML:DiagramElement geometry="Left=520;Top=560;Right=880;Bottom=648;" subject="EAID_0B2F66F1_9DDB_4054_8F4A_7F1CDC20F70A" seqno="11" style="DUID=1B57D3FA;"/>
+				<UML:DiagramElement geometry="Left=122;Top=564;Right=472;Bottom=652;" subject="EAID_78EBAB14_4E2E_4910_9FAE_D56472179AB2" seqno="12" style="DUID=CC8AB484;"/>
+				<UML:DiagramElement geometry="Left=525;Top=450;Right=880;Bottom=538;" subject="EAID_53192763_AD55_49d8_8360_5EA4C5052EA7" seqno="13" style="DUID=1206C0A5;"/>
+				<UML:DiagramElement geometry="Left=122;Top=453;Right=470;Bottom=541;" subject="EAID_2EB7922D_813B_42af_B85F_D08E940C8E97" seqno="14" style="DUID=B1C763A8;"/>
+				<UML:DiagramElement geometry="Left=520;Top=340;Right=880;Bottom=428;" subject="EAID_83F0EE08_E6A4_428c_969F_A5198A53A7A9" seqno="15" style="DUID=4D50647A;"/>
+				<UML:DiagramElement geometry="Left=122;Top=342;Right=475;Bottom=430;" subject="EAID_4AE00F17_C47B_4adf_83F7_3CC412289B8F" seqno="16" style="DUID=496FA9A3;"/>
+				<UML:DiagramElement geometry="Left=520;Top=230;Right=880;Bottom=318;" subject="EAID_56CCD118_6573_4b39_8CDF_F665C24AF2A1" seqno="17" style="DUID=A56EF70D;"/>
+				<UML:DiagramElement geometry="Left=122;Top=231;Right=482;Bottom=319;" subject="EAID_1F5EF49C_4DB2_41a3_BC55_F635E0332081" seqno="18" style="DUID=7AC91D16;"/>
+				<UML:DiagramElement geometry="Left=520;Top=120;Right=880;Bottom=208;" subject="EAID_710B6446_AF77_4955_BC3D_C912480F9FAE" seqno="19" style="DUID=7272DDB9;"/>
+				<UML:DiagramElement geometry="Left=122;Top=120;Right=482;Bottom=208;" subject="EAID_E6795496_ABA2_4360_B170_3D29A9761C5C" seqno="20" style="DUID=94B2D8C4;"/>
+				<UML:DiagramElement geometry="Left=520;Top=70;Right=770;Bottom=93;" subject="EAID_D0A2E75B_4247_4108_9737_0035E7E90036" seqno="21" style="DUID=1C0F7034;"/>
+				<UML:DiagramElement geometry="Left=130;Top=70;Right=380;Bottom=93;" subject="EAID_CF3831BF_04C5_4747_B719_FCD40A3C4D64" seqno="22" style="DUID=12392661;"/>
+				<UML:DiagramElement geometry="Left=10;Top=10;Right=917;Bottom=1265;" subject="EAID_C0ED97E4_AB21_412e_96F5_94D31A68A4A8" seqno="23" style=" DUID=865C74BF;NSL=1;DUID=0A9E55EE;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5"/>
+</XMI>
